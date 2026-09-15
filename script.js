@@ -1,12 +1,11 @@
 function shortcut(s1, s2) {
-  const shortcut = (str1, str2) => {
-  if (str1 == "" || str2 == "") {
+   if (s1 == "" || s2 == "") {
     return "";
   }
 
-  return str1[0] + str2[0];
-};
+  return s1[0] + s2[0];
 }
+
 
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
